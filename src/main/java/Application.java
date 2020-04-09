@@ -16,7 +16,12 @@ public class Application {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
         SpeakerService service = context.getBean("speakerService",SpeakerService.class);
-
+        //System.out.println(service);
         System.out.println(service.findAll().get(0).getFirstName());
+        System.out.println(service.findAll().get(0).getSeedNum());
+
+        //SpeakerService service2 = context.getBean("speakerService",SpeakerService.class);
+        //System.out.println(service2);
+
     }
 }
