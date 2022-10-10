@@ -2,5 +2,5 @@
 A Conference App Backend
 
 ### Tech
-XML based Spring configuration
-Java based Spring configuration
+* XML based Spring configuration
+* Java based Spring configuration
